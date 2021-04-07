@@ -27,7 +27,7 @@ xcode-select --install
 cd ~/Downloads
 curl -OL https://github.com/apple/tensorflow_macos/releases/download/v0.1alpha2/tensorflow_macos-0.1alpha2.tar.gz
 
-# tar -zxvf tensorflow_macos-0.1alpha2.tar.gz
+tar -zxvf tensorflow_macos-0.1alpha2.tar.gz
 cd tensorflow_macos/arm64
 
 # step 03
