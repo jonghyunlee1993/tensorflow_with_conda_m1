@@ -21,11 +21,11 @@ done
 echo "your envirnoment: $ENV_NAME"
 
 # step 01
-# xcode-select --install
+xcode-select --install
 
 # step 02
 cd ~/Downloads
-# curl -OL https://github.com/apple/tensorflow_macos/releases/download/v0.1alpha2/tensorflow_macos-0.1alpha2.tar.gz
+curl -OL https://github.com/apple/tensorflow_macos/releases/download/v0.1alpha2/tensorflow_macos-0.1alpha2.tar.gz
 
 # tar -zxvf tensorflow_macos-0.1alpha2.tar.gz
 cd tensorflow_macos/arm64
